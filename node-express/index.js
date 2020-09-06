@@ -12,6 +12,7 @@ const port = 3000
 
 // decode POST
 app.use(express.json())
+//use extended false because true is deprecated
 app.use(express.urlencoded({extended: false}))
 
 
