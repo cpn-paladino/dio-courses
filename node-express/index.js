@@ -10,9 +10,10 @@ const app = express()
 //set port
 const port = 3000
 
-//add bodyParser in app to decode POST
-app.use(express.urlencoded({ extend: true}))
-app.use(express.json());
+// decode POST
+app.use(express.json())
+app.use(express.urlencoded({extended: false}))
+
 
 //add app in routes to redirect results
 userRoute(app)
