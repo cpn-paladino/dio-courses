@@ -1,3 +1,3 @@
 # Basic CRUD
   
-Using Express and routes, it was done a simple CRUD(Create, Read, Update, Delete) trough methods POST, GET, PUT & DELETE. 
+Using Express and Node.js, it was done a simple CRUD(Create, Read, Update, Delete) through methods POST, GET, PUT & DELETE. 
